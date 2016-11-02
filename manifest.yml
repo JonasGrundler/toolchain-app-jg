@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: toolchain-app-jg
+  host: toolchain-app-jg
+  disk_quota: 1024M
+  services:
+  - toolchain-app-jg-personality_insights
